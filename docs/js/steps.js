@@ -57,6 +57,7 @@ function initialize(options){
 }
 
 function moveWizard($step, xAxis, easing, duration){
+console.dir($step);
   $step
     .animate({
       left : xAxis, 

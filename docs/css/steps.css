@@ -1,0 +1,25 @@
+/**
+ * Steps.js 1.0.0
+ * A smart UI component which allows you to easily create wizard-like interfaces
+ *
+ * Copyright 2018, Takaki Kinoshita
+ * https://xxxxx/
+ *
+ * Licensed under MIT
+ *
+ * Released on : 2018/02/23
+ */
+#personalization_page {
+  height     : 100%;
+  width      : 100%;
+
+  position   : fixed;
+  overflow-x : hidden;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+.wizard-page {
+  position : absolute;
+  width    : 100%;
+
