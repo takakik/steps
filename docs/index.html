@@ -52,7 +52,7 @@
              スクワット（squat）はウエイトトレーニングの基本的な種目でBIG3の1つ（他は、ベンチプレス、デッドリフト）。直立した状態から膝関節の屈曲・伸展を繰り返す運動で、下半身、特に大腿四頭筋・下腿三頭筋・大臀筋・中臀筋などの筋力アップ、筋肥大に大きな効果を持つ。
           </p>
         </section>
-        <section><a href="#" class="next"> Next > </a></section>
+        <section><a href="#" class="previous"> < Back  </a> | <a href="#" class="next"> Next > </a></section>
       </main>
     </div>
 
@@ -69,7 +69,7 @@
             主に広背筋、僧帽筋、脊柱起立筋、大臀筋、ハムストリングスが鍛えられる。
           </p>
         </section>
-        <section><a href="#" class="next"> Next > </a></section>
+        <section><a href="#" class="previous"> < Back  </a> | <a href="#" class="next"> Next > </a></section>
       </main>
     </div>
 
@@ -124,6 +124,10 @@
 
     $('a.next').click(function (e) {
       $('#steps_test').steps('next');
+    });
+
+    $('a.previous').click(function (e) {
+      $('#steps_test').steps('previous');
     });
   </script>
 </body>
