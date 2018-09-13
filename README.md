@@ -1,9 +1,7 @@
-# steps
-
 jQuery Steps Plugin 
 ============
 
-A simple jQuery wizard plugin that supports accessibility and HTML5.
+A simple jQuery wizard plugin that supports Mobile Browser.
 
 ## Getting Started
 
